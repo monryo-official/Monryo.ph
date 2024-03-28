@@ -707,27 +707,39 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-tLI4lmuhrQ {
-  padding-top: 4rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/mbr-1-1920x1321.png");
+.cid-u8ejBsRHVs {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
 }
-.cid-tLI4lmuhrQ .image-wrap img {
+.cid-u8ejBsRHVs .row {
+  flex-direction: row-reverse;
+}
+.cid-u8ejBsRHVs .video-wrapper iframe {
   width: 100%;
 }
+.cid-u8ejBsRHVs .mbr-section-title,
+.cid-u8ejBsRHVs .mbr-description {
+  text-align: center;
+}
 @media (min-width: 992px) {
-  .cid-tLI4lmuhrQ .image-wrap img {
-    display: block;
-    margin: auto;
-    width: 30%;
+  .cid-u8ejBsRHVs .text-wrapper {
+    padding: 2rem;
   }
 }
-.cid-tLI4lmuhrQ .mbr-section-title {
-  color: #4479d9;
+.cid-u8ejBsRHVs .mbr-text {
+  text-align: right;
+  color: #65c6d4;
 }
-.cid-tLI4lmuhrQ .mbr-text,
-.cid-tLI4lmuhrQ .mbr-section-btn {
-  color: #4479d9;
+.cid-u8ejBsRHVs .mbr-section-subtitle {
+  text-align: right;
+  color: #ffffff;
+}
+.cid-u8ejBsRHVs .mbr-description {
+  color: #22a5e5;
+}
+.cid-u8ejBsRHVs .mbr-section-title {
+  color: #bed3f9;
 }
 .cid-sz2acZbUHK {
   z-index: 1000;
@@ -1077,6 +1089,41 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-u8emjSXW8Q {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-image: url("../../../assets/images/dadadad-1900x899.jpg");
+}
+.cid-u8emjSXW8Q .video-wrapper iframe {
+  width: 100%;
+}
+.cid-u8emjSXW8Q .mbr-section-title,
+.cid-u8emjSXW8Q .mbr-section-subtitle,
+.cid-u8emjSXW8Q .mbr-text {
+  text-align: center;
+}
+.cid-tLI4lmuhrQ {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-image: url("../../../assets/images/mbr-1-1920x1321.png");
+}
+.cid-tLI4lmuhrQ .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-tLI4lmuhrQ .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 30%;
+  }
+}
+.cid-tLI4lmuhrQ .mbr-section-title {
+  color: #4479d9;
+}
+.cid-tLI4lmuhrQ .mbr-text,
+.cid-tLI4lmuhrQ .mbr-section-btn {
+  color: #4479d9;
 }
 .cid-tv45gpLAJt {
   padding-top: 6rem;
